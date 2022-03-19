@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/logoIcon.png" />
+    <title>TeknoSun SpA</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="index grid-container">
+      <!-- inicio header -->
+      <header class="header container-fluid col-12">
+        <!-- inicio nav -->
+
+        <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img
+                class="nav-logo"
+                src="images/logo_transparentGold.png"
+                alt="logo teknosun_spa"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsibleNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contactanos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- fin nav -->
+      </header>
+
+      <!-- fin header -->
+      <!-- inicio sección inicio -->
+      <section class="inicio container-fluid flex-column">
+        <img
+          class="inicio__img"
+          src="images/logo_transparentNewColors.png"
+          alt="logoHero"
+        />
+        <h1 class="inicio__title gradient">TeknoSun SpA</h1>
+        <h2 class="inicio__subtitle">Mantención y Servicios Industriales</h2>
+        <a class="button" href="contacto.html">Contactanos</a>
+      </section>
+      <!-- fin sección inicio -->
+      <!-- inicio sección nosotros  -->
+      <section class="nosotros container-fluid flex-column">
+        <h2 class="nosotros__subtitle">Nuestro Objetivo</h2>
+        <p class="nosotros__text">
+          Convertirse en un aliado estratégico alineado con el cliente en la
+          dirección del negocio, con el afán de satisfacer con excelencia, las
+          necesidades del mercado en el campo de la Mantención Industrial y
+          mantención eléctrica más Fabricación de repuestos sea cualquiera de
+          sus requerimientos. Proporcionar un servicio integral, de alta calidad
+          adaptado a sus necesidades y a costos competitivos.
+        </p>
+        <a class="button" href="contacto.html">Conocenos mas</a>
+      </section>
+      <!-- fin sección nosotros  -->
+      <!-- inicio sección servicios -->
+      <section class="servicios container-fluid flex-column">
+        <h2 class="servicios__subtitle">Nuestros Servicios</h2>
+        <div class="servicios__items flex-column">
+          <p class="servicios__item-text">Mantenimiento predictivo</p>
+          <p class="servicios__item-text">Mantención de maquinaria</p>
+          <p class="servicios__item-text">Proyectos eléctricos y mecánicos</p>
+          <p class="servicios__item-text">Reparación de máquinas y equipos</p>
+          <p class="servicios__item-text">Fabricación de partes y piezas</p>
+          <p class="servicios__item-text">
+            TeknoSun se adapta a los nuevos tiempos
+          </p>
+        </div>
+        <a class="button" href="servicios.html">Ver detalles</a>
+      </section>
+      <!-- fin sección servicios -->
+      <!-- inicio sección contacto -->
+      <section class="contacto container-fluid">
+        <h2 class="contacto__subtitle text-center mb-5 mt-5">
+          Comunicate con nosotros
+        </h2>
+        <div class="contacto__container d-flex justify-content-end row mh-90">
+          <form class="col-xs-12 col-lg-6 p-5 pt-0 text-start">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="name" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                Nunca compartiremos tu email con nadie mas.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">
+                Mensaje
+              </label>
+              <textarea class="form-control" id="mensaje" rows="6"></textarea>
+            </div>
+            <button type="submit" class="form-button btn btn-primary w-100 p-3">
+              Submit
+            </button>
+          </form>
+
+          <article
+            class="contacto__article col-xs-12 col-lg-6 p-5 pt-0 text-start"
+          >
+            <div class="contacto__redes">
+              <h3 class="contacto__h4 mb-0">Nuestras redes:</h3>
+              <div class="contacto__links">
+                <a
+                  class="contacto__link text-decoration-none"
+                  href="https://www.instagram.com/teknosun_spa/"
+                >
+                  <img
+                    class="contacto__icon"
+                    src="images/instagram.png"
+                    alt="instagram icon"
+                  />
+                </a>
+                <a
+                  class="contacto__link text-decoration-none"
+                  href="https://www.facebook.com/teknosun.teknosun"
+                >
+                  <img
+                    class="contacto__icon"
+                    src="images/facebook.png"
+                    alt="instagram icon"
+                  />
+                </a>
+                <a
+                  class="contacto__link text-decoration-none"
+                  href="https://www.linkedin.com"
+                >
+                  <img
+                    class="contacto__icon"
+                    src="images/linkedin.png"
+                    alt="instagram icon"
+                  />
+                </a>
+              </div>
+            </div>
+            <br />
+            <div class="contacto__datos">
+              <h3 class="contacto__h4 mb-0">Datos para contactar:</h3>
+              <p class="contacto__text">Independencia, Santiago</p>
+              <p class="contacto__text">comercial@teknosun.cl</p>
+              <p class="contacto__text">+56994340066</p>
+            </div>
+            <picture class="d-none d-sm-block">
+              <img
+                class="contacto__image"
+                src="images/Map.png"
+                alt="Imagen de un mapa mostrando rutas principales, calles y areas verdes, cada localidad está identificada por su nombre"
+              />
+            </picture>
+          </article>
+        </div>
+      </section>
+      <!-- fin sección contacto -->
+      <!-- inicio footer -->
+      <footer class="footer flex-row">
+        <p class="footer__text gradient">copyright</p>
+        <p class="footer__text gradient">Gabriel Ramírez</p>
+      </footer>
+      <!-- fin footer  -->
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
