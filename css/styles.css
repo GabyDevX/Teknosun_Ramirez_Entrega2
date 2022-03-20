@@ -33,11 +33,11 @@
   justify-items: center;
 }
 
-.flex-row {
+.flexbox-row {
   display: flex;
 }
 
-.flex-column {
+.flexbox-column {
   display: flex;
   flex-direction: column;
 }
